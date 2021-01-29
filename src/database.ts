@@ -95,11 +95,11 @@ export default class Database {
             await mkdir(folder);
         }
 
-        const folderPath = join(folder, name);
+        const folderPath = await this.getConflictFreeFileName(join(folder, name));
         await mkdir(folderPath);
 
         const idFilePath = join(folderPath, '.iubh-campus-sync-folder');
-        await writeFile(idFilePath, id);
+        await writeFile(idFilePath, id + '\n');
         return folderPath;
     }
 
@@ -123,7 +123,8 @@ export default class Database {
 
             const path = join(folder, file.name);
             const content = await readFile(path, {encoding: 'utf8'});
-            if (content === id) {
+            const savedId = content.split('\n')[0].trim();
+            if (savedId === id) {
                 return folder;
             }
 
