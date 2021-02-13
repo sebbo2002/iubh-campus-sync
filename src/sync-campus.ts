@@ -49,7 +49,7 @@ export default class SyncCampus {
         const courses = await this.myCampus.getCourses();
         for(const i in courses) {
             const course = courses[i];
-            if(['InfoPO', 'STUDIENSTART', 'EINSTUEN', 'STUCOA', 'DLITIG', 'DLIABA'].includes(course.id)) {
+            if(['id=1844', 'id=2567', 'id=2566'].find(a => course.url.endsWith(a))) {
                 continue;
             }
 
