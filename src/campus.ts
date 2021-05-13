@@ -14,9 +14,17 @@ export default class MyCampus {
         await this.page.goto('https://mycampus.iubh.de/my/');
 
         const $usernameInput = await this.page.waitForSelector('#username');
+        if(!$usernameInput) {
+            throw new Error('Unable to login: not able to find username field');
+        }
+
         await $usernameInput.type(username);
 
         const $passwordInput = await this.page.waitForSelector('#password');
+        if(!$passwordInput) {
+            throw new Error('Unable to login: not able to find password field');
+        }
+
         await $passwordInput.type(password);
         await $passwordInput.press('Enter');
         await this.page.waitForSelector('#page-my-index');
