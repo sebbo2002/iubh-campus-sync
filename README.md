@@ -10,6 +10,17 @@ triggered periodically e.g. by cronjob, therefore for example already existing f
 some extent.
 
 
+## ☁ Installation
+
+To install the javascript module via npm run:
+
+	npm install -g @sebbo2002/iubh-campus-sync
+
+You can also use the provided Docker container:
+
+    docker pull sebbo2002/iubh-campus-sync
+
+
 ## 🔧 Configuration
 | Environment Variable | Description                                    |
 |:-------------------- |:---------------------------------------------- |
