@@ -1,3 +1,5 @@
+## [1.0.1-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v1.0.0...v1.0.1-develop.1) (2021-05-24)
+
 # [1.0.0-develop.4](https://github.com/sebbo2002/iubh-campus-sync/compare/v1.0.0-develop.3...v1.0.0-develop.4) (2021-05-13)
 
 # [1.0.0-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v1.0.0-develop.2...v1.0.0-develop.3) (2021-05-13)
