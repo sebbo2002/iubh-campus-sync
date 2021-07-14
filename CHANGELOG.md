@@ -1,5 +1,12 @@
 # [2.0.0-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0-develop.1...v2.0.0-develop.2) (2021-07-14)
 
+
+### Bug Fixes
+
+* **CI:** Fix TypeError: configuration.push is not a function ([1af3812](https://github.com/sebbo2002/iubh-campus-sync/commit/1af381275091c15ded12c83f771be6488265a638))
+
+# [2.0.0-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0-develop.1...v2.0.0-develop.2) (2021-07-14)
+
 # [2.0.0-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0-develop.1...v2.0.0-develop.2) (2021-06-20)
 
 # [2.0.0-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0-develop.1...v2.0.0-develop.2) (2021-06-18)
