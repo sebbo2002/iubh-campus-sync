@@ -17,8 +17,8 @@
     "description": "Syncs data between a local folder and IUBH's MyCampus",
     "devDependencies": {
         "@amanda-mitchell/semantic-release-npm-multiple": "^2.8.0",
-        "@eclass/semantic-release-docker": "^1.0.7",
         "@qiwi/semantic-release-gh-pages-plugin": "^5.0.7",
+        "@semantic-release-plus/docker": "^2.3.3",
         "@semantic-release/changelog": "^5.0.1",
         "@semantic-release/commit-analyzer": "^8.0.1",
         "@semantic-release/exec": "^5.0.0",
