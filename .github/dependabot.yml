@@ -5,25 +5,16 @@ updates:
     assignees:
       - sebbo2002
     commit-message:
-      prefix: "ci(deps): Update Actions: "
+      prefix: "ci"
       include: scope
     schedule:
       interval: weekly
-  - package-ecosystem: npm
-    directory: /
-    assignees:
-      - sebbo2002
-    commit-message:
-      prefix: "build(deps): "
-      prefix-development: "chore(deps): "
-      include: scope
-    schedule:
-      interval: daily
   - package-ecosystem: docker
     directory: /
     assignees:
       - sebbo2002
     commit-message:
-      prefix: "build(deps): Update docker base image"
+      prefix: "build"
     schedule:
       interval: weekly
+
