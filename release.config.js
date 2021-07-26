@@ -20,7 +20,7 @@ configuration.plugins.push(['@semantic-release/commit-analyzer', {
 configuration.plugins.push('@semantic-release/release-notes-generator');
 
 configuration.plugins.push(['@semantic-release/exec', {
-    'prepareCmd': 'npm run build'
+    'prepareCmd': 'npm run build-all'
 }]);
 
 configuration.plugins.push('@semantic-release/changelog');
