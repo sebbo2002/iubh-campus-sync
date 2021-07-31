@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/sebbo2002/iubh-campus-sync/compare/v1.0.0...v2.0.0) (2021-07-31)
+
+
+### Bug Fixes
+
+* **CI:** Fix TypeError: configuration.push is not a function ([1af3812](https://github.com/sebbo2002/iubh-campus-sync/commit/1af381275091c15ded12c83f771be6488265a638))
+
+
+### chore
+
+* Remove node.js 10 Support ([2b910c0](https://github.com/sebbo2002/iubh-campus-sync/commit/2b910c09bc8a41085fc4472159494d8738d5521e))
+
+
+### BREAKING CHANGES
+
+* Removed support for node.js v10
+
 # [2.0.0-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0-develop.2...v2.0.0-develop.3) (2021-07-26)
 
 # [2.0.0-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0-develop.1...v2.0.0-develop.2) (2021-07-26)
