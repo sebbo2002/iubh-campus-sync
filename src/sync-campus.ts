@@ -65,7 +65,7 @@ export default class SyncCampus {
             }
             catch(error) {
                 console.log(`Unable to sync course ${course.url}:`);
-                console.log(error.stack || error);
+                console.log(error instanceof Error ? error.stack : error);
             }
         }
     }
