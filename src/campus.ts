@@ -27,7 +27,17 @@ export default class MyCampus {
 
         await $passwordInput.type(password);
         await $passwordInput.press('Enter');
-        await this.page.waitForSelector('#page-my-index');
+
+        try {
+            await this.page.waitForSelector('#page-my-index');
+        }
+        catch(error) {
+            await this.page.reload({
+                waitUntil: ['networkidle0', 'domcontentloaded']
+            });
+
+            await this.page.waitForSelector('#page-my-index');
+        }
     }
 
     async stop (): Promise<void> {

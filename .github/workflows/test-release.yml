@@ -1,8 +1,9 @@
 name: Test & Release
 on:
   push:
-    branches-ignore:
-      - gh-pages
+    branches:
+      - develop
+      - main
   pull_request: null
 
 jobs:
@@ -20,13 +21,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node }}
-      - name: 🔧 Setup npm cache
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'npm'
       - name: 📦 Install dependencies
         run: npm ci
       - name: ⏳ Run tests
@@ -42,14 +37,7 @@ jobs:
       - name: 🔧 Setup node.js
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node }}
-      - name: 🔧 Setup npm cache
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'npm'
       - name: 📦 Install dependencies
         run: npm ci
       - name: 🔍 Run linter
@@ -67,14 +55,7 @@ jobs:
       - name: 🔧 Setup node.js
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node }}
-      - name: 🔧 Setup npm cache
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'npm'
       - name: 📦 Install dependencies
         run: npm ci
       - name: 🕵️‍♀️ Run license checker
@@ -121,6 +102,8 @@ jobs:
           tags: ghcr.io/${{ github.repository }}:build-container-${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          secrets: |
+            GIT_AUTH_TOKEN=${{ secrets.GH_TOKEN }}
       - name: 🪄 Build and push (2/2)
         id: build
         uses: docker/build-push-action@v2
@@ -144,6 +127,8 @@ jobs:
             type=registry,ref=ghcr.io/${{ github.repository }}:next
             type=registry,ref=ghcr.io/${{ github.repository }}:latest
           cache-to: type=gha,mode=max
+          secrets: |
+            GIT_AUTH_TOKEN=${{ secrets.GH_TOKEN }}
       - name: 🔄 Push container to DockerHub
         if: ${{ env.PUSH_TO_DOCKERHUB == true }}
         run: |
@@ -173,14 +158,7 @@ jobs:
       - name: 🔧 Setup node.js
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node }}
-      - name: 🔧 Setup npm cache
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'npm'
       - name: 📦 Install dependencies
         run: npm ci
       - name: 📂 Create docs folder

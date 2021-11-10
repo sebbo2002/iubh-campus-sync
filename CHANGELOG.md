@@ -1,3 +1,14 @@
+## [2.0.1-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.1-develop.2...v2.0.1-develop.3) (2021-11-07)
+
+
+### Bug Fixes
+
+* Reload index page if selector doesn't match ([6fec1ed](https://github.com/sebbo2002/iubh-campus-sync/commit/6fec1edc82589abd8f5f6bfc37bd4abc96093105))
+
+## [2.0.1-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.1-develop.1...v2.0.1-develop.2) (2021-10-26)
+
+## [2.0.1-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0...v2.0.1-develop.1) (2021-10-22)
+
 # [2.0.0](https://github.com/sebbo2002/iubh-campus-sync/compare/v1.0.0...v2.0.0) (2021-07-31)
 
 
