@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-07T17:43:16.694Z",
-    "end": "2021-11-07T17:43:16.698Z",
-    "duration": 4,
+    "start": "2021-12-01T23:09:53.562Z",
+    "end": "2021-12-01T23:09:53.568Z",
+    "duration": 6,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1e0bdd53-3db3-49dc-adc7-e91926de6307",
+      "uuid": "d677fa5e-e67c-47fa-8a89-d982f40b0ed1",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a9af4629-8d63-477d-952d-78e56c488498",
+          "uuid": "2554c388-65e9-4606-9db2-0825d79a7c0c",
           "title": "Example",
           "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -38,7 +38,7 @@
               "title": "should do something",
               "fullTitle": "Example should do something",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "assert_1.default.ok(true);",
               "err": {},
-              "uuid": "abd5d948-b14e-4872-a025-92a5e5f23782",
-              "parentUUID": "a9af4629-8d63-477d-952d-78e56c488498",
+              "uuid": "fcd8c50d-c199-4254-8937-e6cb27f01998",
+              "parentUUID": "2554c388-65e9-4606-9db2-0825d79a7c0c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "abd5d948-b14e-4872-a025-92a5e5f23782"
+            "fcd8c50d-c199-4254-8937-e6cb27f01998"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -90,11 +90,11 @@
         "useInlineDiffs": false,
         "code": true
       },
-      "version": "6.3.1"
+      "version": "7.0.1"
     },
     "marge": {
       "options": null,
-      "version": "5.2.0"
+      "version": "6.0.1"
     }
   }
 }
