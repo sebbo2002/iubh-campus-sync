@@ -107,7 +107,10 @@ export default class SyncCampus {
                     continue;
                 }
 
-                const niceFileName = activity.name.replace(/[^a-z0-9-_äüöß.a ()[]/gi, '_') + extname(originalFilePath);
+                const niceFileName = activity.name
+                    .replace(/[^a-z0-9-_äüöß.a ()\[]/gi, '_')
+                    .replace(/"/g, '') + extname(originalFilePath);
+
                 const niceFilePath = await this.database.getConflictFreeFileName(join(folder, niceFileName));
                 console.log(`> Download of ${basename(originalFilePath)} complete`);
                 console.log(`> Rename file to ${niceFileName}`);
