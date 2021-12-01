@@ -1,3 +1,10 @@
+## [2.0.2-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.1...v2.0.2-develop.1) (2021-12-01)
+
+
+### Bug Fixes
+
+* Remove quotation marks from file name ([7a0df3c](https://github.com/sebbo2002/iubh-campus-sync/commit/7a0df3cc8a7ddfab56b7648313e61345dcee0ccd))
+
 ## [2.0.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.0...v2.0.1) (2021-11-10)
 
 
