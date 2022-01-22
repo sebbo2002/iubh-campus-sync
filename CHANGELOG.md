@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.2...v2.0.3) (2022-01-22)
+
+
+### Bug Fixes
+
+* **build:** Bump node-fetch to 2.6.7 ([c94d154](https://github.com/sebbo2002/iubh-campus-sync/commit/c94d15441e8879f949cef98f091aad4ac60a402a))
+
 ## [2.0.3-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.2...v2.0.3-develop.1) (2022-01-22)
 
 
