@@ -1,49 +1,33 @@
-# template
-
+# IUBH Campus Sync
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
-Here would be a very short description of the project. So in this example it would be a short information that this is
-a template that I use to start new projects and services.
+
+## 🧐 What's this?
+
+This script logs into [IUBH's MyCampus](mycampus.iubh.de/) using [Puppeteer](https://pptr.dev/) and then downloads the
+files provided there. I use this script so that I don't have to download the files manually. The script was built to be
+triggered periodically e.g. by cronjob, therefore for example already existing files or renamed files are recognized to
+some extent.
 
 
-## 🚨 Template Usage Checklist
-- [ ] Update project name in `package.json`
-- [ ] Create `main` and `develop` branches
-- [ ] Set `develop` as default branch
-- [ ] Create Docker Repository
-    - [ ] Add Repository Description
-    - [ ] Add secret: `DOCKERHUB_TOKEN`
-- [ ] Create npm Repository with `npm publish --access public`
-    - [ ] Add secret: `NPM_TOKEN`
-- [ ] Go through repo settings
+## ☁ Installation
+
+To install the javascript module via npm run:
+
+	npm install -g @sebbo2002/iubh-campus-sync
+
+You can also use the provided Docker container:
+
+    docker pull sebbo2002/iubh-campus-sync
 
 
-## 📦 Installation
-
-	git clone https://github.com/sebbo2002/template.git
-    cd ./template
-
-    npm install
-
-
-## ⚡️ Quick Start
-
-This is where it would normally say how to use the project.
-This could be a code example for a library or instructions on how to use a CLI tool.
+## 🔧 Configuration
+| Environment Variable | Description                                    |
+|:-------------------- |:---------------------------------------------- |
+| `SYNC_PATH`          | Absolute folder path to sync all the files to. |
+| `SYNC_USERNAME`      | MyCampus Username                              |
+| `SYNC_PASSWORD`      | MyCampus Password                              |
 
 
-## 📑 API-Reference
-
-Is there an API that needs to be documented? Then here would be a nice place for it. If there is external documentation,
-you can link it here ([example](https://github.com/sebbo2002/ical-generator/#-api-reference)).
-
-
-## 🙋 FAQ
-
-### What's `1` + `2`
-It's `3` 🎉
-
-
-## 🙆🏼‍♂️ Copyright and license
-
+## 👩‍⚖️ Copyright & License
 Copyright (c) Sebastian Pekarek under the [MIT license](LICENSE).
