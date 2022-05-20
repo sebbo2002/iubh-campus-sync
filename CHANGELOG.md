@@ -1,3 +1,10 @@
+## [2.0.5-develop.5](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.5-develop.4...v2.0.5-develop.5) (2022-05-20)
+
+
+### Reverts
+
+* Revert "ci: Remove GH_TOKEN and use GITHUB_TOKEN" ([b5c2eb6](https://github.com/sebbo2002/iubh-campus-sync/commit/b5c2eb66170b38bda1e49ad5bb5cf02bd13eb8e4))
+
 ## [2.0.5-develop.4](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.5-develop.3...v2.0.5-develop.4) (2022-05-18)
 
 ## [2.0.5-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.5-develop.2...v2.0.5-develop.3) (2022-05-14)
