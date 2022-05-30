@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-04-28T10:59:54.858Z",
-    "end": "2022-04-28T10:59:54.863Z",
-    "duration": 5,
+    "start": "2022-05-30T09:11:22.321Z",
+    "end": "2022-05-30T09:11:22.327Z",
+    "duration": 6,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "03df1259-f7a7-4798-b696-8afcdbb6417d",
+      "uuid": "004dc96d-5631-43ec-b130-6f8e033d1e98",
       "title": "",
       "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7ff2029b-b8c3-4070-8b63-55871facd3a3",
+          "uuid": "6d93e17d-8643-491d-a261-1305527942f4",
           "title": "Example",
           "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -38,7 +38,7 @@
               "title": "should do something",
               "fullTitle": "Example should do something",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "assert_1.default.ok(true);",
               "err": {},
-              "uuid": "f1d7ede2-aa70-4529-ac69-347031a7c66d",
-              "parentUUID": "7ff2029b-b8c3-4070-8b63-55871facd3a3",
+              "uuid": "8f84d85b-8d2f-4304-a187-19a41a4d2ba3",
+              "parentUUID": "6d93e17d-8643-491d-a261-1305527942f4",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f1d7ede2-aa70-4529-ac69-347031a7c66d"
+            "8f84d85b-8d2f-4304-a187-19a41a4d2ba3"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -78,7 +78,7 @@
   ],
   "meta": {
     "mocha": {
-      "version": "9.2.2"
+      "version": "10.0.0"
     },
     "mochawesome": {
       "options": {
