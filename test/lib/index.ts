@@ -1,10 +1,7 @@
-'use strict';
-
-import Magic from '../../src/lib';
-import assert = require('assert');
+import assert from 'assert';
 
 describe('Example', function () {
-    it('should work with integers', function () {
-        assert.strictEqual(Magic.double(2), 4);
+    it('should do something', function () {
+        assert.ok(true);
     });
 });
