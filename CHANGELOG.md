@@ -1,3 +1,10 @@
+## [2.0.6-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.6-develop.2...v2.0.6-develop.3) (2022-06-22)
+
+
+### Bug Fixes
+
+* Remove download link selector to make downloads work again ([c22f4ea](https://github.com/sebbo2002/iubh-campus-sync/commit/c22f4ea6455f42b594935d66f29bfd4b1771d0c8))
+
 ## [2.0.6-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.6-develop.1...v2.0.6-develop.2) (2022-06-22)
 
 
