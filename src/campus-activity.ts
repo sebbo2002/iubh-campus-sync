@@ -57,7 +57,7 @@ export default class MyCampusActivity {
 
     isDownloadable(): boolean {
         if (this.type === 'resource') {
-            return !!this.$('a.aalink')?.attr('href');
+            return !!this.$('a')?.attr('href');
         }
 
         return false;
@@ -65,7 +65,7 @@ export default class MyCampusActivity {
 
     async download(path: string): Promise<string> {
         if (this.type === 'resource') {
-            const url = this.$('a.aalink')?.attr('href');
+            const url = this.$('a')?.attr('href');
             if (!url) {
                 throw new Error('Unable to download file: URL not found.');
             }
