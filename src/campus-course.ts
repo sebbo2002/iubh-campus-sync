@@ -55,7 +55,13 @@ export default class MyCampusCourse {
 
         const page = await this.myCampus.browser.newPage();
         await page.goto(this.url);
-        await page.waitForSelector('#region-main ul.topics');
+
+        try {
+            await page.waitForSelector('#region-main ul.topics');
+        }
+        catch(error) {
+            return [];
+        }
 
         const rawSections = await page.$$eval('ul.topics li.section', sections => sections.map(section => ({
             id: section.id,
