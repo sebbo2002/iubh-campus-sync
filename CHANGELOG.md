@@ -1,3 +1,10 @@
+## [2.0.6-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.6-develop.1...v2.0.6-develop.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* Ignore courses without topics ([c068e52](https://github.com/sebbo2002/iubh-campus-sync/commit/c068e529749b11967b02ec76b3cad26c6a6ea795))
+
 ## [2.0.6-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.5...v2.0.6-develop.1) (2022-06-14)
 
 ## [2.0.5](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.4...v2.0.5) (2022-05-30)
