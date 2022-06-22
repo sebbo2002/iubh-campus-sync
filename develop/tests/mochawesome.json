@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-06-22T17:59:29.191Z",
-    "end": "2022-06-22T17:59:29.194Z",
-    "duration": 3,
+    "start": "2022-06-22T19:19:08.975Z",
+    "end": "2022-06-22T19:19:08.979Z",
+    "duration": 4,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d85e46ea-3f1d-44c8-845d-13206bee83c0",
+      "uuid": "199d6810-d151-4f5c-a2a4-1700262943ba",
       "title": "",
       "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "597c23fb-9a5f-4200-bf0a-2b6cece76ce0",
+          "uuid": "8123cd98-8d92-459b-8822-1c6173bf4f4d",
           "title": "Example",
           "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -38,7 +38,7 @@
               "title": "should do something",
               "fullTitle": "Example should do something",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "assert_1.default.ok(true);",
               "err": {},
-              "uuid": "1c894204-1bd6-4a84-9a2f-9467043aa304",
-              "parentUUID": "597c23fb-9a5f-4200-bf0a-2b6cece76ce0",
+              "uuid": "786ec2ad-252c-4a6f-a966-0808a065d43c",
+              "parentUUID": "8123cd98-8d92-459b-8822-1c6173bf4f4d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1c894204-1bd6-4a84-9a2f-9467043aa304"
+            "786ec2ad-252c-4a6f-a966-0808a065d43c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
