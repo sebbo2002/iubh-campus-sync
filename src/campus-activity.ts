@@ -1,4 +1,4 @@
-import MyCampus from './campus';
+import MyCampus from './campus.js';
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import {join} from 'path';

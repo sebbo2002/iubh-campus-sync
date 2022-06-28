@@ -1,3 +1,5 @@
+'use strict';
+
 import assert from 'assert';
 
 describe('Example', function () {

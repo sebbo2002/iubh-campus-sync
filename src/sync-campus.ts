@@ -1,5 +1,5 @@
-import Database from './database';
-import MyCampus from './campus';
+import Database from './database.js';
+import MyCampus from './campus.js';
 
 import {join, dirname, basename, extname} from 'path';
 import {rename} from 'fs/promises';

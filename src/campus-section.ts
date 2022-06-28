@@ -1,4 +1,4 @@
-import MyCampusActivity from './campus-activity';
+import MyCampusActivity from './campus-activity.js';
 
 export interface MyCampusSectionConstructorData {
     id: string;
