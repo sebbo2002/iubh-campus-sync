@@ -1,3 +1,10 @@
+# [3.0.0-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.0-develop.1...v3.0.0-develop.2) (2022-06-30)
+
+
+### Bug Fixes
+
+* Ignore course 6157 ([fd734e8](https://github.com/sebbo2002/iubh-campus-sync/commit/fd734e8ef9e166b35b83044450e718acf0aa8ac4))
+
 # [3.0.0-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.7-develop.2...v3.0.0-develop.1) (2022-06-28)
 
 
