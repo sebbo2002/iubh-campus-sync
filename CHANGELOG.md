@@ -1,3 +1,21 @@
+# [3.0.0](https://github.com/sebbo2002/iubh-campus-sync/compare/v2.0.6...v3.0.0) (2022-07-25)
+
+
+### Bug Fixes
+
+* Filter resulting file names for allowed chars ([a1bba0d](https://github.com/sebbo2002/iubh-campus-sync/commit/a1bba0dc73a9a539341542c84ad66c66696cbcac))
+* Ignore course 6157 ([fd734e8](https://github.com/sebbo2002/iubh-campus-sync/commit/fd734e8ef9e166b35b83044450e718acf0aa8ac4))
+
+
+### Build System
+
+* Native ESM support ([7b86a4f](https://github.com/sebbo2002/iubh-campus-sync/commit/7b86a4f1187c387a3a5792e1fb72d822b04e3631))
+
+
+### BREAKING CHANGES
+
+* Only Support for node.js ^12.20.0 || >=14.13.1
+
 # [3.0.0-develop.5](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.0-develop.4...v3.0.0-develop.5) (2022-07-25)
 
 # [3.0.0-develop.4](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.0-develop.3...v3.0.0-develop.4) (2022-07-16)
