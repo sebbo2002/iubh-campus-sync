@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-06-22T20:02:27.506Z",
-    "end": "2022-06-22T20:02:27.510Z",
-    "duration": 4,
+    "start": "2022-07-25T18:21:31.428Z",
+    "end": "2022-07-25T18:21:31.433Z",
+    "duration": 5,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "23f2aa60-0780-4c31-842f-936af110cc49",
+      "uuid": "3336a6eb-84a0-405e-94d3-1d76cea95045",
       "title": "",
       "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "89bf7072-7e08-4be4-a29b-05ceea077e1c",
+          "uuid": "1278bbe3-9da8-4495-8ecd-54848c053ef3",
           "title": "Example",
           "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -38,29 +38,29 @@
               "title": "should do something",
               "fullTitle": "Example should do something",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "assert_1.default.ok(true);",
+              "code": "assert.ok(true);",
               "err": {},
-              "uuid": "35194198-d3e8-43a3-b942-01606ff15ce7",
-              "parentUUID": "89bf7072-7e08-4be4-a29b-05ceea077e1c",
+              "uuid": "fa64910c-ff14-4811-a053-ee7132c329a4",
+              "parentUUID": "1278bbe3-9da8-4495-8ecd-54848c053ef3",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "35194198-d3e8-43a3-b942-01606ff15ce7"
+            "fa64910c-ff14-4811-a053-ee7132c329a4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
