@@ -2,8 +2,8 @@ import {existsSync, readFileSync, writeFileSync, createReadStream} from 'fs';
 import {mkdir, readdir, readFile, writeFile} from 'fs/promises';
 import {createHash} from 'crypto';
 import {join, dirname, extname, basename, resolve, relative} from 'path';
-import {MyCampusCourseStatus} from './types';
-import MyCampusActivity from './campus-activity';
+import {MyCampusCourseStatus} from './types.js';
+import MyCampusActivity from './campus-activity.js';
 
 export interface DatabaseActivityEntry {
     id: string;

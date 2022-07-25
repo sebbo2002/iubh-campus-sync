@@ -1,7 +1,7 @@
-import {MyCampusCourseStatus} from './types';
-import MyCampus from './campus';
-import MyCampusSection from './campus-section';
-import MyCampusActivity from './campus-activity';
+import {MyCampusCourseStatus} from './types.js';
+import MyCampus from './campus.js';
+import MyCampusSection from './campus-section.js';
+import MyCampusActivity from './campus-activity.js';
 
 export interface MyCampusCourseConstructorData {
     id: string;

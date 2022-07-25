@@ -1,8 +1,8 @@
 'use strict';
 
-import {SyncOptions} from './types';
-import Database from './database';
-import SyncCampus from './sync-campus';
+import {SyncOptions} from './types.js';
+import Database from './database.js';
+import SyncCampus from './sync-campus.js';
 
 class Sync {
     static async run (): Promise<void> {

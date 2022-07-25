@@ -1,4 +1,4 @@
-import MyCampus from './campus';
+import MyCampus from './campus.js';
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import {join} from 'path';
@@ -110,7 +110,7 @@ export default class MyCampusActivity {
             throw new Error('Unexpected response: server replied without attachement');
         }
 
-        const fileName = disposition.substr(21);
+        const fileName = disposition.substr(21).replace(/[a-z\d_\-, /]+/i, '').trim();
         const filePath = join(path, fileName);
         const streamPipeline = promisify(pipeline);
         const writeStream = createWriteStream(filePath);

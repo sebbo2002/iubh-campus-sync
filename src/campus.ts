@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-import MyCampusCourse from './campus-course';
+import MyCampusCourse from './campus-course.js';
 
 export default class MyCampus {
     public browser: puppeteer.Browser | undefined;

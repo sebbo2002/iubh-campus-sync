@@ -1,5 +1,5 @@
-import Database from './database';
-import MyCampus from './campus';
+import Database from './database.js';
+import MyCampus from './campus.js';
 
 import {join, dirname, basename, extname} from 'path';
 import {rename} from 'fs/promises';
@@ -49,7 +49,7 @@ export default class SyncCampus {
         const courses = await this.myCampus.getCourses();
         for(const i in courses) {
             const course = courses[i];
-            if(['id=1844', 'id=2567', 'id=2566', 'id=4893', 'id=1208', 'id=2565'].find(a => course.url.endsWith(a))) {
+            if(['id=1844', 'id=2567', 'id=2566', 'id=4893', 'id=1208', 'id=2565', 'id=6157'].find(a => course.url.endsWith(a))) {
                 continue;
             }
 
