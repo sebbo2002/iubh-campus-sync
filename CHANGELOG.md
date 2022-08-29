@@ -1,3 +1,11 @@
+## [3.0.2-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.2-develop.2...v3.0.2-develop.3) (2022-08-29)
+
+
+### Bug Fixes
+
+* Fix empty section names ([1ebd47c](https://github.com/sebbo2002/iubh-campus-sync/commit/1ebd47c359cf4e7b64b5bf9843d00490c9368eb1))
+* Fix files with " in file extension ([a706aef](https://github.com/sebbo2002/iubh-campus-sync/commit/a706aef3af47be73d50af0b0ed92588fb0ff69a2))
+
 ## [3.0.2-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.2-develop.1...v3.0.2-develop.2) (2022-08-28)
 
 ## [3.0.2-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.1...v3.0.2-develop.1) (2022-08-26)
