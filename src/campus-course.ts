@@ -66,7 +66,7 @@ export default class MyCampusCourse {
         const rawSections = await page.$$eval('ul.topics li.section', sections => sections.map(section => ({
             id: section.id,
             url: '#' + section.id,
-            name: section.getAttribute('aria-label'),
+            name: section.querySelector('.sectionname')?.textContent || section.id,
             activities: Array.from(section.querySelectorAll('.section li.activity'))
                 .map(activity => activity.id)
         })));
