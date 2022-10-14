@@ -1,3 +1,5 @@
+## [3.0.4](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.3...v3.0.4) (2022-10-14)
+
 ## [3.0.4-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.3...v3.0.4-develop.1) (2022-10-14)
 
 ## [3.0.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.2...v3.0.3) (2022-09-27)
