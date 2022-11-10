@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-11-06T20:30:14.406Z",
-    "end": "2022-11-06T20:30:14.410Z",
-    "duration": 4,
+    "start": "2022-11-10T13:53:10.154Z",
+    "end": "2022-11-10T13:53:10.156Z",
+    "duration": 2,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "785a66d0-d86c-4209-9175-fd7f4156ac7d",
+      "uuid": "08219809-b2d4-4cc3-80eb-31c8ce92d9dc",
       "title": "",
       "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c2978c0e-2e0a-4e98-8b4e-c5db42db775d",
+          "uuid": "99109810-294d-4dcf-9889-68805ad45824",
           "title": "Example",
           "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -38,7 +38,7 @@
               "title": "should do something",
               "fullTitle": "Example should do something",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "assert.ok(true);",
               "err": {},
-              "uuid": "88344799-1635-42ec-b20e-ad97737f3b24",
-              "parentUUID": "c2978c0e-2e0a-4e98-8b4e-c5db42db775d",
+              "uuid": "801096f6-16d0-478e-8cc7-d2b34ada363f",
+              "parentUUID": "99109810-294d-4dcf-9889-68805ad45824",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "88344799-1635-42ec-b20e-ad97737f3b24"
+            "801096f6-16d0-478e-8cc7-d2b34ada363f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
