@@ -1,9 +1,9 @@
-import puppeteer from 'puppeteer';
+import puppeteer, { Browser, Page } from 'puppeteer';
 import MyCampusCourse from './campus-course.js';
 
 export default class MyCampus {
-    public browser: puppeteer.Browser | undefined;
-    public page: puppeteer.Page | undefined;
+    public browser: Browser | undefined;
+    public page: Page | undefined;
 
     private screenshotTime = new Date().getTime();
     private screenshotIndex = 0;
@@ -48,7 +48,7 @@ export default class MyCampus {
         }
     }
 
-    async screenshot (page: puppeteer.Page | undefined = this.page): Promise<void> {
+    async screenshot (page: Page | undefined = this.page): Promise<void> {
         if(page) {
             await page.screenshot({
                 path: this.screenshotTime + '-' + this.screenshotIndex.toString().padStart(3, '0') + '.png'
