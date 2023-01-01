@@ -33,7 +33,7 @@ configuration.plugins.push(['@amanda-mitchell/semantic-release-npm-multiple', {
 }]);
 
 configuration.plugins.push(['@semantic-release/exec', {
-    'prepareCmd': './.github/workflows/build.sh'
+    'prepareCmd': 'npm run build-all'
 }]);
 
 configuration.plugins.push(['@semantic-release/github', {
