@@ -25,12 +25,7 @@ configuration.plugins.push('@semantic-release/changelog');
 
 configuration.plugins.push('semantic-release-license');
 
-configuration.plugins.push(['@amanda-mitchell/semantic-release-npm-multiple', {
-    'registries': {
-        'github': {},
-        'public': {}
-    }
-}]);
+configuration.plugins.push('@semantic-release/npm');
 
 configuration.plugins.push(['@semantic-release/exec', {
     'prepareCmd': 'npm run build-all'

@@ -1,3 +1,13 @@
+## [3.0.7-develop.5](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.7-develop.4...v3.0.7-develop.5) (2023-02-08)
+
+## [3.0.7-develop.4](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.7-develop.3...v3.0.7-develop.4) (2023-01-19)
+
+## [3.0.7-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.7-develop.2...v3.0.7-develop.3) (2023-01-02)
+
+## [3.0.7-develop.2](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.7-develop.1...v3.0.7-develop.2) (2023-01-01)
+
+## [3.0.7-develop.1](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.6...v3.0.7-develop.1) (2022-12-27)
+
 ## [3.0.6](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.5...v3.0.6) (2022-12-11)
 
 ## [3.0.6-develop.3](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.6-develop.2...v3.0.6-develop.3) (2022-12-09)
