@@ -3,8 +3,8 @@ import MyCampus from './campus.js';
 
 import {join, dirname, basename, extname} from 'path';
 import {rename} from 'fs/promises';
-import MyCampusCourse from './campus-course';
-import MyCampusSection from './campus-section';
+import MyCampusCourse from './campus-course.js';
+import MyCampusSection from './campus-section.js';
 
 export interface SyncCampusOptions {
     username: string;
