@@ -1,3 +1,20 @@
+# [4.0.0](https://github.com/sebbo2002/iubh-campus-sync/compare/v3.0.7...v4.0.0) (2023-03-31)
+
+
+### Bug Fixes
+
+* Add .js extensions ([ea2837f](https://github.com/sebbo2002/iubh-campus-sync/commit/ea2837f940be37af7dd99ee5fc5b43a1c10324cb))
+
+
+### Build System
+
+* Deprecate node.js 12 ([426588b](https://github.com/sebbo2002/iubh-campus-sync/commit/426588b4bb7bde2924bbc92006ca839e960872e1))
+
+
+### BREAKING CHANGES
+
+* From now on, only node.js ^14.8.0 || >=16.0.0 are supported
+
 # [4.0.0-develop.6](https://github.com/sebbo2002/iubh-campus-sync/compare/v4.0.0-develop.5...v4.0.0-develop.6) (2023-03-29)
 
 # [4.0.0-develop.5](https://github.com/sebbo2002/iubh-campus-sync/compare/v4.0.0-develop.4...v4.0.0-develop.5) (2023-03-21)
