@@ -8,7 +8,7 @@ echo "# node version = $(node -v)"
 echo "# npm version = $(npm -v)"
 echo "########################"
 
-# Typescript Build in ./dist
+# Rollup Build in ./dist
 npm run build
 
 if [ "$BRANCH" != "develop" ] && [ "$BRANCH" != "main" ] && [ "$BRANCH" != "" ]; then
@@ -18,11 +18,8 @@ fi;
 
 
 mkdir -p ./docs/
-rm -rf ./docs/coverage/ ./docs/reference/ ./docs/tests/
+rm -rf ./docs/tests/
 
-
-# TypeDoc in ./docs/referece
-npx typedoc
 
 # Test Report in ./docs/tests
 npx mocha --reporter mochawesome
