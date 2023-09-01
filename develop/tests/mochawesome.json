@@ -5,8 +5,8 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-08-23T08:46:18.738Z",
-    "end": "2023-08-23T08:46:18.742Z",
+    "start": "2023-09-01T21:42:10.314Z",
+    "end": "2023-09-01T21:42:10.318Z",
     "duration": 4,
     "testsRegistered": 1,
     "passPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "dc5ff25c-aa7f-41ba-96de-d80299a4803d",
+      "uuid": "72be84a5-f54d-4b53-b195-ad0bfc5f4715",
       "title": "",
       "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "eaa7c779-edeb-4a05-8e1a-e4180d50d32f",
+          "uuid": "6c818aad-b651-4b1f-89e9-527c84bf2c36",
           "title": "Example",
           "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -47,15 +47,15 @@
               "context": null,
               "code": "assert.ok(true);",
               "err": {},
-              "uuid": "1715ac8a-982c-4f5f-a1ad-787c45effdcf",
-              "parentUUID": "eaa7c779-edeb-4a05-8e1a-e4180d50d32f",
+              "uuid": "3c627a78-a5a5-4ee6-aef8-7c0bedc73cc3",
+              "parentUUID": "6c818aad-b651-4b1f-89e9-527c84bf2c36",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1715ac8a-982c-4f5f-a1ad-787c45effdcf"
+            "3c627a78-a5a5-4ee6-aef8-7c0bedc73cc3"
           ],
           "failures": [],
           "pending": [],
