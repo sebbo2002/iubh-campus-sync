@@ -5,8 +5,8 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-09-01T21:42:10.314Z",
-    "end": "2023-09-01T21:42:10.318Z",
+    "start": "2023-09-24T16:51:04.431Z",
+    "end": "2023-09-24T16:51:04.435Z",
     "duration": 4,
     "testsRegistered": 1,
     "passPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "72be84a5-f54d-4b53-b195-ad0bfc5f4715",
+      "uuid": "802dd0cb-3e5c-40c8-9307-7533ce852a29",
       "title": "",
       "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6c818aad-b651-4b1f-89e9-527c84bf2c36",
+          "uuid": "4b56332b-7f17-45af-93bc-ad3acfa5a162",
           "title": "Example",
           "fullFile": "/home/runner/work/iubh-campus-sync/iubh-campus-sync/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -38,7 +38,7 @@
               "title": "should do something",
               "fullTitle": "Example should do something",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "assert.ok(true);",
               "err": {},
-              "uuid": "3c627a78-a5a5-4ee6-aef8-7c0bedc73cc3",
-              "parentUUID": "6c818aad-b651-4b1f-89e9-527c84bf2c36",
+              "uuid": "b56ce789-a575-4a25-82f6-7c0938898af5",
+              "parentUUID": "4b56332b-7f17-45af-93bc-ad3acfa5a162",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "3c627a78-a5a5-4ee6-aef8-7c0bedc73cc3"
+            "b56ce789-a575-4a25-82f6-7c0938898af5"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
